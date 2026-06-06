@@ -20,32 +20,17 @@ const nextConfig = {
     return [
       {
         source: "/(gh|github|git)/:slug*",
-        destination: "https://github.com/0xN1nja/:slug*",
+        destination: "https://github.com/kid-ye",
         permanent: true,
       },
       {
         source: "/(twitter|x)",
-        destination: "https://twitter.com/0xN1nja",
+        destination: "https://twitter.com/KidyeYash",
         permanent: true,
       },
       {
         source: "/(linkedin|ln)",
-        destination: "https://www.linkedin.com/in/0xN1nja/",
-        permanent: true,
-      },
-      {
-        source: "/(spotify)",
-        destination: "https://open.spotify.com/user/zs3iqfqkwdhgtzitjrhg38xvj",
-        permanent: true,
-      },
-      {
-        source: "/(feed.xml|feed|rss)",
-        destination: "https://0xn1nja.dev/rss.xml",
-        permanent: true,
-      },
-      {
-        source: "/gpg",
-        destination: "https://github.com/0xN1nja.gpg",
+        destination: "https://www.linkedin.com/in/ye-yash/",
         permanent: true,
       },
     ];

@@ -13,9 +13,9 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 const info = {
-  name: "0xN1nja",
-  twitter: "@0xN1nja",
-  description: "19 / software engineer",
+  name: "kid-ye",
+  twitter: "@KidyeYash",
+  description: "20 / software engineer",
   url: "https://0xn1nja.dev",
   image: "/meta/og.jpg",
 };

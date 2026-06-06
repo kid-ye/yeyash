@@ -161,7 +161,7 @@ export const Colophon = () => {
             title="View source code on GitHub"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/0xN1nja/site"
+            href="https://github.com/kid-ye"
           >
             <svg
               viewBox="0 0 24 24"

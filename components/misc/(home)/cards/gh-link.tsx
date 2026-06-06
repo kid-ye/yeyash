@@ -1,4 +1,3 @@
-import ghCat from "@/public/images/home/ghcat.jpg";
 import { Github } from "lucide-react";
 import Image from "next/image";
 
@@ -6,7 +5,7 @@ export const GHLink = () => {
   return (
     <a
       className="relative h-full w-full group flex flex-col justify-between overflow-hidden rounded-2xl text-white transform-gpu transition-all duration-500 will-change-[outline,_transform] group-hover:scale-95 active:scale-100 hover:scale-95"
-      href="https://github.com/0xN1nja"
+      href="https://github.com/kid-ye"
       target="_blank"
       rel="noreferrer"
     >
@@ -15,8 +14,9 @@ export const GHLink = () => {
         className="pointer-events-none absolute inset-0 -z-20"
       >
         <Image
-          src={ghCat}
+          src="/images/home/ksg.png"
           alt="cat img"
+          fill
           priority={true}
           className="rounded-lg absolute inset-0 h-full w-full object-cover object-center brightness-[0.7] "
         />

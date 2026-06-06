@@ -32,7 +32,7 @@ export const Footer = ({ className, ...props }: ComponentProps<"footer">) => {
         </span>
         <a
           className="link ml-auto inline-flex items-center gap-1.5"
-          href="https://github.com/0xN1nja"
+          href="https://github.com/kid-ye"
           rel="noreferrer"
           target="_blank"
         >
@@ -50,7 +50,7 @@ export const Footer = ({ className, ...props }: ComponentProps<"footer">) => {
             />
           </svg>
           <span>
-            <span>0xN1nja</span>
+            <span>kid-ye</span>
             <span className="hidden text-zinc-350 dark:text-[#898992] sm:inline">
               #{commit}
             </span>

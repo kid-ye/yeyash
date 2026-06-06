@@ -243,7 +243,7 @@ export const WebsiteTab = () => {
         PlanetScale. It's hosted on Vercel. If you're curious, feel free to
         explore the source code on{" "}
         <a
-          href="https://github.com/0xN1nja/site"
+          href="https://github.com/kid-ye"
           className="link"
           target="_blank"
           rel="noreferrer"

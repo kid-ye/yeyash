@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, FileText, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
 export const Intro = () => {
@@ -6,49 +6,35 @@ export const Intro = () => {
     <section className="mt-8 text-zinc-600 dark:text-zinc-400">
       <div className="space-y-5">
         <p>
-          Hi, I'm Abhimanyu (known as{" "}
+          Hi, I'm Yash (known as{" "}
           <a
             className="link text-black dark:text-white/95 underline-offset-auto underline"
-            href="https://www.github.com/0xN1nja"
+            href="https://www.github.com/kid-ye"
           >
-            0xN1nja
+            kid-ye
           </a>{" "}
-          on the internet) currently a Computer Science undergraduate. I started
-          programming when I was 11 years old and have been coding ever since.
+          on the internet) currently a Computer Science undergraduate, based in
+          Bengaluru.
         </p>
         <p>
-          I mainly work with Python, Rust, JavaScript/TypeScript and Go. I have
-          also worked with Gleam, Lua and C#.
+          I work at the intersection of electronics and software, building
+          everything from embedded systems and edge AI applications to
+          distributed backends and full-stack products.
         </p>
         <p>
-          My interests include MLOps, Systems-programming, Low-level dev and
-          Full-stack dev. I also do DevOps, Networking and Sysadmin stuff for my{" "}
-          <Link
-            className="link text-black dark:text-white/95 underline-offset-auto underline"
-            href="/homelab"
-          >
-            Homelab
-          </Link>
-          .
+          I'm particularly interested in systems engineering, AI, networking,
+          and creating technology that connects hardware and software
+          seamlessly.
         </p>
-        <p>
-          I love simplicity and a great admirer of Unix philosophy, minimalism
-          and Open Source.
-        </p>
+        <p>I love simplicity, Open Source and Music.</p>
         <div>
           <Link
             href="#"
-            className="inline-flex link text-black relative dark:text-white/95"
+            className="inline-flex items-center link text-black relative dark:text-white/95"
           >
+            <FileText size={14} className="mr-1" />
             resume{" "}
-            <ArrowUpRight size={10} className="mt-1 ml-[2px] items-center" />
-          </Link>
-          <Link
-            href="https://github.com/0xN1nja.gpg"
-            className="ml-2 inline-flex link text-black relative dark:text-white/95"
-          >
-            gpg key{" "}
-            <ArrowUpRight size={10} className="mt-1 ml-[2px] items-center" />
+            <ArrowUpRight size={10} className="ml-[2px]" />
           </Link>
         </div>
       </div>
@@ -69,18 +55,20 @@ export const Intro = () => {
       <div>
         feel free to reach me out at
         <a
-          className="link text-black dark:text-white/95 mx-1 underline underline-offset-auto"
-          href="http://x.com/0xN1nja"
+          className="link text-black dark:text-white/95 mx-1 underline underline-offset-auto inline-flex items-center"
+          href="http://linkedin.com/in/ye-yash"
           target="_blank"
           rel="noopener noreferrer"
         >
-          x.com
+          <Linkedin size={14} className="mr-1" />
+          Linkedin.com
         </a>
         or drop an
         <a
-          className="link text-black dark:text-white/95 ml-1 underline-offset-auto underline"
-          href="mailto:0xN1nja@proton.me"
+          className="link text-black dark:text-white/95 ml-1 underline-offset-auto underline inline-flex items-center"
+          href="mailto:yashguptabms@gmail.com"
         >
+          <Mail size={14} className="mr-1" />
           email
         </a>
         .

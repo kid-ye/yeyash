@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { NavMenu } from "./navmenu";
 
 type navItems = {
   name: string;
@@ -11,10 +10,11 @@ type navItems = {
 }[];
 
 const navItems: navItems = [
-  { name: "~", href: "/" },
-  { name: "work", href: "/work" },
-  { name: "projects", href: "/projects" },
-  { name: "blogs", href: "/blogs" },
+  { name: "home", href: "/" },
+  { name: "work", href: "/#work" },
+  { name: "education", href: "/#education" },
+  { name: "projects", href: "/#projects" },
+  { name: "contact", href: "/#contact" },
 ];
 
 const NavBar = () => {
@@ -46,7 +46,6 @@ const NavBar = () => {
             </Link>
           </div>
         ))}
-        <NavMenu />
       </nav>
     </div>
   );

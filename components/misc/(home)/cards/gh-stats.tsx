@@ -1,19 +1,18 @@
 import { getGHStats } from "@/lib/get-gh-stats";
 
 export const GHStats = async () => {
-  const { issues, prs, followers, stars } = await getGHStats();
+  const { issues, followers, repos } = await getGHStats();
   return (
     <div className="bg-[#f7f2f2] dark:bg-[#0d1117] rounded-lg h-36 relative group hover:scale-95 duration-500 transform-gpu">
       <a
-        href="http://github.com/0xN1nja"
+        href="http://github.com/kid-ye"
         target="_blank"
         rel="noopener noreferrer"
       >
         <BackgroundPattern />
         <div className="flex flex-row flex-wrap gap-x-6 sm:gap-x-4 md:gap-x-6 absolute bottom-1 p-2">
-          <GitHubStatsData label="Stars" value={stars} />
+          <GitHubStatsData label="Repos" value={repos} />
           <GitHubStatsData label="Followers" value={followers} />
-          <GitHubStatsData label="PRs" value={prs} />
           <GitHubStatsData label="Issues" value={issues} />
         </div>
       </a>

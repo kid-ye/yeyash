@@ -79,7 +79,7 @@ const NavDrawer = () => {
           <p className="font-bold py-4">Online</p>
           <Button variant="secondary">
             <a
-              href="https://github.com/0xN1nja"
+              href="https://github.com/kid-ye"
               target="_blank"
               rel="noopener noreferrer"
               className="h-full w-full"
@@ -90,7 +90,7 @@ const NavDrawer = () => {
           </Button>
           <Button variant="secondary">
             <a
-              href="http://x.com/0xN1nja"
+              href="http://x.com/KidyeYash"
               target="_blank"
               rel="noopener noreferrer"
               className="h-full w-full"
@@ -101,7 +101,7 @@ const NavDrawer = () => {
           </Button>
           <Button variant="secondary">
             <a
-              href="https://www.linkedin.com/in/0xN1nja"
+              href="https://www.linkedin.com/in/ye-yash"
               rel="noopener noreferrer"
               className="h-full w-full"
             >

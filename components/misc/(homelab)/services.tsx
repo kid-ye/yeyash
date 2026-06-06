@@ -78,7 +78,7 @@ export const OtherServices = () => {
       <p className="pb-4 text-zinc-600 dark:text-zinc-400">
         If you want to automate building Homepage&apos;s YAML config, check out{" "}
         <a
-          href="https://github.com/0xN1nja/homepagectl"
+          href="https://github.com/kid-ye"
           target="_blank"
           rel="noopener noreferrer"
           className="link"
