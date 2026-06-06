@@ -5,12 +5,12 @@ import { DesignAndColors } from "@/components/misc/(uses)/design-colors";
 import { MyLogo } from "@/components/misc/(uses)/my-logo";
 import { Typography } from "@/components/misc/(uses)/typography";
 
-import setup from "@/public/images/uses/setup.webp";
+// import setup from "@/public/images/uses/setup.webp";
 
 export const AllTabs = () => {
   return (
     <section className="border-none">
-      <Image
+      {/* <Image
         src={setup}
         placeholder="blur"
         alt={"Desktop setup 1"}
@@ -18,7 +18,7 @@ export const AllTabs = () => {
         height={1080}
         className={"h-full object-top py-3"}
         priority
-      />
+      /> */}
       <EverydayTab />
       <SoftwareTab />
       <BrowserTab />
