@@ -8,7 +8,7 @@ export const Intro = () => {
         <p>
           Hi, I'm Yash (known as{" "}
           <a
-            className="link text-black dark:text-white/95 underline-offset-auto underline"
+            className="link-accent underline-offset-auto underline"
             href="https://www.github.com/kid-ye"
           >
             kid-ye
@@ -29,12 +29,13 @@ export const Intro = () => {
         <p>I love simplicity, Open Source and Music.</p>
         <div>
           <Link
-            href="#"
-            className="inline-flex items-center link text-black relative dark:text-white/95"
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center link-accent relative"
           >
             <FileText size={14} className="mr-1" />
-            resume{" "}
-            <ArrowUpRight size={10} className="ml-[2px]" />
+            resume <ArrowUpRight size={10} className="ml-[2px]" />
           </Link>
         </div>
       </div>
@@ -55,7 +56,7 @@ export const Intro = () => {
       <div>
         feel free to reach me out at
         <a
-          className="link text-black dark:text-white/95 mx-1 underline underline-offset-auto inline-flex items-center"
+          className="link-accent mx-1 underline underline-offset-auto inline-flex items-center"
           href="http://linkedin.com/in/ye-yash"
           target="_blank"
           rel="noopener noreferrer"
@@ -65,7 +66,7 @@ export const Intro = () => {
         </a>
         or drop an
         <a
-          className="link text-black dark:text-white/95 ml-1 underline-offset-auto underline inline-flex items-center"
+          className="link-accent ml-1 underline-offset-auto underline inline-flex items-center"
           href="mailto:yashguptabms@gmail.com"
         >
           <Mail size={14} className="mr-1" />

@@ -17,7 +17,7 @@ const info = {
   twitter: "@KidyeYash",
   description: "20 / software engineer",
   url: "https://0xn1nja.dev",
-  image: "/meta/og.jpg",
+  image: "/meta/ye.jpg",
 };
 
 export const metadata: Metadata = {
@@ -79,12 +79,12 @@ export default function RootLayout({ children }: ChildrenProps) {
       </body>
       <Analytics />
       <link
-        href="/favicons/favicon-light.ico"
+        href="/favicons/favicon.ico"
         rel="icon"
         media="(prefers-color-scheme: light)"
       />
       <link
-        href="/favicons/favicon-dark.ico"
+        href="/favicons/favicon.ico"
         rel="icon"
         media="(prefers-color-scheme: dark)"
       />

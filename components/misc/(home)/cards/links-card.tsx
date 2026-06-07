@@ -1,5 +1,4 @@
-import { RiTwitterXFill } from "@/components/icons";
-import { CalendarDays, Linkedin } from "lucide-react";
+import { CalendarDays, Linkedin, Mail } from "lucide-react";
 
 export const LinksCard = () => {
   return (
@@ -19,7 +18,7 @@ export const LinksCard = () => {
         className="hover:scale-95 duration-500 transform-gpu h-36 flex flex-col justify-center items-center rounded-lg text-white bg-[#1c1d1f] flex-1"
         rel="noreferrer"
       >
-        <RiTwitterXFill className="text-2xl" />
+        <Mail />
         <p className="text-[12px] text-white/55 -rotate-3">(mail me)</p>
       </a>
     </div>

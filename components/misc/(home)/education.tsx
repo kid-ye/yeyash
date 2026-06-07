@@ -55,7 +55,7 @@ export const Education = () => {
   return (
     <div id="education" className="scroll-mt-24 pt-8 pb-8">
       <div className="pb-10">
-        <h2 className="text-2xl font-bold pb-4">Education</h2>
+        <h2 className="section-heading text-2xl font-bold pb-4">Education</h2>
         <p className="text-zinc-600 dark:text-zinc-400">
           A quick look at my academic background and the foundations behind the
           work I&apos;m building now.

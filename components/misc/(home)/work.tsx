@@ -85,7 +85,7 @@ export const WorkSection = () => {
   return (
     <div id="work" className="scroll-mt-24 pt-8 pb-8">
       <div className="pb-10">
-        <h2 className="text-2xl font-bold pb-8">Work</h2>
+        <h2 className="section-heading text-2xl font-bold pb-8">Work</h2>
         <div className="text-zinc-600 dark:text-zinc-400">
           A summary of my professional journey so far - the teams I've worked
           with, technologies I've built with and the problems I've helped solve.

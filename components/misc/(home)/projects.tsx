@@ -93,7 +93,7 @@ export const Projects = () => {
   return (
     <div id="projects" className="scroll-mt-24 pt-8 pb-8">
       <div className="pb-10">
-        <h2 className="text-2xl font-bold pb-4">Projects</h2>
+        <h2 className="section-heading text-2xl font-bold pb-4">Projects</h2>
         <p>
           Here are some of the projects I&apos;ve worked on. Most are written
           either to solve my own problems or just for the fun of building
